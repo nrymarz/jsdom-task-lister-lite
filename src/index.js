@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const taskForm = document.querySelector("#create-task-form");
   const list = document.querySelector("#list #tasks")
   taskForm.addEventListener("submit",addToList)
-  list.addEventListener("click",deleteTask)
 
   function addToList(event){
     event.preventDefault();
